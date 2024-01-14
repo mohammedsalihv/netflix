@@ -1,0 +1,242 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url(images/header-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+}
+.position-relative{
+    background-color: rgb(231, 82, 90);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 17x;
+    border: 0;
+    margin-right: 5px;
+   
+}
+.red-btn{
+    background: rgb(230, 78, 85);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px 10px;
+  
+}
+.red-btn :hover{
+    cursor: pointer;
+}
+.hero-container{
+    justify-content: center;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    
+}
+
+.hero-title {
+    color: #fff;
+    text-align: center;
+   padding-top: 180px;
+}
+.hero-heading {
+    color: #fff;
+    text-align: center;
+    
+}
+.hero-para {
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.get-started-btn{
+    background: rgb(230, 67, 75);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1.5rem;
+}
+form {
+    width: 60%;
+}
+
+form #floatingInput {
+    color: #fff;
+}
+
+form .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+
+form .form-floating>.form-control:focus~label {
+    color: gray;
+}
+
+form .form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+}
+
+form .form-floating {
+    width: 35%;
+}
+
+form #floatingInput {
+    background: transparent;
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+.get-started-btn::after{
+    content: "\276F";
+    margin-left: 5px;
+}
+.partition1-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.partition1-para{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.partition2-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.partition2-para{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.partition3-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.partition3-para{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.faq-section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.faq-section button {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+.faq-section .accordion {
+    --bs-accordion-color: rgb(255, 255, 255);
+    --bs-accordion-bg: rgb(45, 45, 45);
+    --bs-accordion-border-color: none;
+}
+.faq-section .accordion-button:hover {
+    background-color: rgb(65,65,65);
+}
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: rgb(65, 65, 65);
+    color: rgb(255,255,255);
+}
+
+.faq-section .accordion-button::after {
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 20px;
+    font-size: 40px;
+    top: 5px;
+    right: 45px;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+}
+.end-para{
+    text-align: center;
+    padding-top: 80px;
+}
+footer {
+    border-top: 5px solid #232323;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer li {
+    list-style-type: none ;
+}
+  
+@media only screen and (max-width: 992px) {
+    nav img {
+        width: 17%;
+    }
+
+    .hero-title,
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero-first-p,
+    .hero-second-p,
+    .section-paragraph,
+    .faq-section h3 {
+        font-size: 1.125rem;
+    }
+
+    .partition1-section .container {
+        padding-top: 5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav img {
+        width: 25%;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    nav img {
+        width: 35%;
+    }
+
+    header {
+        height: 110vh;
+    }
+
+    form .form-floating {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
